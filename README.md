@@ -1,12 +1,10 @@
-# DDR SDRAM Controller for Digilent Boards
+# DDR controller and serial port to proccess video
 
-We provide a memory controller that works alongside Xilinx Memory Interface Generator (MIG). We also provide UCF files and instructions to easily integrate DDR SDRAM on the following Digilent Boards:
+We used and edited a memory controller that works alongside Xilinx Memory Interface Generator (MIG) provided by https://github.com/alonsorb/ddr-ram-controller-mig/wiki/Home to have a better perfomance than Digilent DDR wrapper. It let us show a video in 20 fps and filter it.
 
-* Genesys 2
-* Nexys Video
-* :construction: Nexys DDR :construction:
 
-For more information visit the project [wiki](https://github.com/alonsorb/ddr-ram-controller-mig/wiki/Home)
+
+For more information visit the project [wiki](https://github.com/jdjotad/ddr-ram-controller-mig/wiki/Home)
 
 ### Overview
 
@@ -16,13 +14,8 @@ For more information visit the project [wiki](https://github.com/alonsorb/ddr-ra
 <img src="./img/diagram-user.svg">
 </p>
 
-#### DDR SDRAM Physical Signals
-
-<p align="center">
-<img src="./img/diagram-ram.svg">
-</p>
 
 ### Authors
 
-* Alonso Rodriguez - alonso.rodriguez.13@sansano.usm.cl
-* Rodrigo Venegas - rodrigo.venegas.13@sansano.usm.cl
+* Juan Escárate - juan.escarate@sansano.usm.cl
+* Carlos Fernandez - carlos.fernandezh@sansano.usm.cl
